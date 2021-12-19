@@ -1,0 +1,15 @@
+Launch centos7 ec2-instance (Nagios is not support on amazon linux)
+cd /opt 
+wget http://assets.nagios.com/downloads/nagiosxi/xi-latest.tar.gz  (Step1. Download software)
+tar -xzf xi-latest.tar.gz   (untar file)
+cd nagiosxi/
+./fullinstall  (Run Install script)
+http://192.168.72.133/nagiosxi/   (Access via Browser)
+
+Nagios Agent:
+cd /tmp
+wget https://assets.nagios.com/downloads/nagiosxi/agents/linux-nrpe-agent.tar.gz
+tar -xzf xi-latest.tar.gz  (Untar file)
+./fullinstall   (Run script)
+Sudo service start ixnetd
+
