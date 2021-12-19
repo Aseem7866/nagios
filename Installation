@@ -4,7 +4,7 @@ wget http://assets.nagios.com/downloads/nagiosxi/xi-latest.tar.gz  (Step1. Downl
 tar -xzf xi-latest.tar.gz   (untar file)
 cd nagiosxi/
 ./fullinstall  (Run Install script)
-http://192.168.72.133/nagiosxi/   (Access via Browser)
+http://192.168.72.133/nagiosxi/   (Access UI using public IP)
 
 Nagios Agent:
 cd /tmp
