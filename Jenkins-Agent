@@ -1,0 +1,8 @@
+sudo useradd -d /var/lib/jenkins jenkins
+sudo su - jenkins
+ssh-keygen
+vi .ssh/authorized_keys (Copy the public key from rsa_id.pub)
+chmod 700 .ssh && chmod 600 .ssh/authorized_keys
+Login jenkins UI and add credentials
+Add jenkins node with launch ssh agent and manually trusted key 
+Verification

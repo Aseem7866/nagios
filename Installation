@@ -12,4 +12,3 @@ wget https://assets.nagios.com/downloads/nagiosxi/agents/linux-nrpe-agent.tar.gz
 tar -xzf xi-latest.tar.gz  (Untar file)
 ./fullinstall   (Run script)
 Sudo service start ixnetd
-
