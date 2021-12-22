@@ -9,6 +9,7 @@ http://192.168.72.133/nagiosxi/   (Access UI using public IP)
 Nagios Agent:
 cd /tmp
 wget https://assets.nagios.com/downloads/nagiosxi/agents/linux-nrpe-agent.tar.gz
-tar -xzf xi-latest.tar.gz  (Untar file)
+tar -xzf linux-nrpe-agent.tar.gz  (Untar file)
+cd linux-nrpe-agent
 ./fullinstall   (Run script)
 Sudo service start ixnetd
